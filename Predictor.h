@@ -54,7 +54,7 @@ public:
 
     bool pred(uint index)
     {
-        if(BHTable[index] >> 1)) return true;//高位是1
+        if(BHTable[index] >> 1) return true;//高位是1
         return false;
     }
 
