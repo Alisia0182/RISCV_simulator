@@ -72,7 +72,7 @@ int main()
             Wb.perform();
 
             rst = RegPtr->ReadReg(10);
-            cout << std::dec << (rst << 24 >> 24) << '\n';
+            cout << std::dec << (rst << 24 >> 24);
 
             RegPtr->Clean();
             MemPtr->Clean();
